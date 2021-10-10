@@ -1,6 +1,6 @@
 # theses-topics
 
-adadddada
+
 ## Topic: "Show me the monitors" - BSc - 2021-2022
 
 ### Files
