@@ -19,7 +19,7 @@ Do the following tasks in python.
 
 - Load the [dataset](https://github.com/sermpezis/ai4netmon/tree/main/data/similarity) `ripe_ris_distance_pathlens_100k_20210701.csv`that contains a matrix with the distances between monitors (Each row/column corresponds to a monitor; monitor ids are the rows/column headers and are IPaddresses; the values of the matrix are the distances)
 
-- Do clustering using Kmeans, with K=10 clusters. Use the distances as features, i.e., rows of the distance matrix correspond to each monitor and columns are the "features". (note: some values are NaN; it's not a problem, no need to do anything)
+- Do clustering using Kmeans, with K=10 clusters. Use the distances as features, i.e., rows of the distance matrix correspond to each monitor and columns are the "features". (note: some values are NaN; replace them with the value 1, only for the clustering task)
 
 - Select randomly two monitors per cluster (write dows their id)
 
